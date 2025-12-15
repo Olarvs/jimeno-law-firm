@@ -1,0 +1,79 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #0b0d17;
+color: #ffffff;
+}
+
+
+/* Navbar */
+.navbar {
+background-color: rgba(23, 23, 32, 0.85);
+/* background-color: transparent !important; */
+transition: background-color 0.3s ease;
+
+}
+
+
+.navbar-brand {
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+
+/* Hero Section */
+.hero {
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d') center/cover no-repeat;
+display: flex;
+align-items: center;
+}
+
+
+.hero h1 {
+font-size: 3rem;
+font-weight: 700;
+}
+
+
+.hero p {
+max-width: 600px;
+opacity: 0.9;
+}
+
+
+/* Section Title */
+.section-title {
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 0.9rem;
+color: #9aa0ff;
+}
+
+
+/* Cards */
+.service-card {
+background-color: #11142a;
+border: none;
+transition: transform 0.3s ease;
+}
+
+
+.service-card:hover {
+transform: translateY(-8px);
+}
+
+
+/* Footer */
+footer {
+background-color: #05060f;
+font-size: 0.9rem;
+}
+
+/* Color */
+.bg-offwhite {
+background-color: #f1f1f1 !important;
+}
+.bg-navy {
+background-color: #0b0d17 !important;
+}
