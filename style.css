@@ -20,6 +20,12 @@ letter-spacing: 2px;
 color: #2C3E50;
 }
 
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
 .navbar .nav-link {
 color: #2C3E50 !important;
 }
@@ -28,7 +34,7 @@ color: #2C3E50 !important;
 .hero {
 min-height: 100vh;
 background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
-url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d') center/cover no-repeat;
+url('./images/office-photo.jpg') center/cover no-repeat;
 display: flex;
 align-items: center;
 }
