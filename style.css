@@ -91,12 +91,154 @@ opacity: 0.9;
 
 /* Section Title */
 .section-title {
-text-transform: uppercase;
-letter-spacing: 3px;
-font-size: 0.9rem;
-color: #9aa0ff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  color: #9aa0ff;
 }
 
+/* About Section - Professional & Trust-Focused */
+#about {
+  color: #F4F6F9;
+  background: linear-gradient(135deg, rgba(29, 60, 106, 0.8), rgba(9, 13, 23, 0.8));
+}
+
+.about-firm-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #F4F6F9;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
+
+.about-partners {
+  font-size: 1.1rem;
+  color: #9aa0ff;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#about p {
+  color: rgba(244, 246, 249, 0.9);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.about-intro, 
+.about-philosophy, 
+.about-closing {
+  margin-bottom: 1.5rem;
+}
+
+/* Trust Stats */
+.about-stats {
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(154, 160, 255, 0.2);
+  border-bottom: 1px solid rgba(154, 160, 255, 0.2);
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #9aa0ff;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: rgba(244, 246, 249, 0.75);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* CTA Section */
+.about-cta {
+  text-align: left;
+}
+
+#about .btn-primary {
+  background-color: #9aa0ff;
+  border-color: #9aa0ff;
+  color: #0b0d17;
+  padding: 14px 48px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#about .btn-primary:hover {
+  background-color: #7c82d4;
+  border-color: #7c82d4;
+  transform: translateY(-2px);
+}
+
+.cta-microcopy {
+  font-size: 0.85rem;
+  color: rgba(244, 246, 249, 0.65);
+  letter-spacing: 1px;
+  margin: 0 !important;
+}
+
+/* Image Styling */
+.about-image {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .about-firm-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #about {
+    text-align: center;
+  }
+
+  .about-firm-title {
+    font-size: 1.8rem;
+  }
+
+  .about-partners {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .stat-item {
+    padding: 1rem 0;
+  }
+
+  .about-text-col {
+    margin-bottom: 2rem;
+  }
+
+  .about-cta {
+    text-align: center;
+  }
+
+  #about .btn-primary {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
 /* Attorneys Collage */
 .attorneys-collage {
   display: grid;
